@@ -8,7 +8,21 @@
 export default {
   name: 'NavBar',
   methods: {
-    getUserID () {
+    triggerBounce(element) {
+      element.classList.toggle('')
+    }
+    t () {
+
+      if (name === "juan") {
+        return yes
+      } else {
+        return 'no'
+      }
+
+      return name === 'juan'
+        ? 'yes'
+        : 'no'
+
       return user.id
     }
   }
